@@ -25,8 +25,6 @@ A legacy field `pickingInfo.lngLat` has been removed. Use `pickingInfo.coordinat
 ### MVTLayer
 
 - `MVTLayer`'s picked info now yields the `info.object` feature coordinates in WGS84 standard.
-- `getRenderedFeatures` method in `MVTLayer`: calculates the features rendered in the current viewport.
-- `getVisibleTiles` method in `MVTLayer`: retrieves the visible tiles in the current viewport.
 
 ## Upgrading from deck.gl v8.2 to v8.3
 
